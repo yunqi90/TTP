@@ -1,0 +1,236 @@
+/*** Copyright (C) TTTech Computertechnik AG 2005-2025. All rights         ***/
+/*** reserved.                                                             ***/
+/*** Module tt_tdc_application_data_0, written by TTP-Build version 9.0.20 ***/
+/*** (16-May-2025), license (null):17-jun-2025 for lenovo at               ***/
+/*** DESKTOP0BVGMHD on Wed 09-Jul-2025 14:31:21                            ***/
+
+#ifndef _tt_tdc_application_data_0_h_
+#define _tt_tdc_application_data_0_h_ 1
+
+
+#include "tt_tdc_api.h"
+#include "tt_tdc_application_data.h"
+#include "tt_tdc_application_data_mhb_alloc_0.h"
+#define CONSISTANCY_TAG 0x4a3b3eaL
+  /* This an unique identifier to check if all generated files are           */
+  /* consistent.                                                             */
+extern tt_tdc_MHL_Partition_Config mhl_partition_config_buffer_0 [];
+extern tt_tdc_MHL_Task_Config mhl_task_config_buffer_0 [];
+#define PARTITION_CONFIG &(mhl_partition_config_buffer_0[0])
+#define PARTITION_NAME "PARTITION_1"
+#define TASK_0_TTX_LGCU_MSGBOX_00 &(mhl_task_config_buffer_0[0])
+#define TASK_0_TTX_LGCU_MSGBOX_01 &(mhl_task_config_buffer_0[1])
+#define TASK_0_TTX_LGCU_MSGBOX_02 &(mhl_task_config_buffer_0[2])
+#define TASK_0_TTX_LGCU_MSGBOX_03 &(mhl_task_config_buffer_0[3])
+#define TASK_0_TTX_LGCU_MSGBOX_04 &(mhl_task_config_buffer_0[4])
+#define TASK_0_TTX_LGCU_MSGBOX_05 &(mhl_task_config_buffer_0[5])
+#define TASK_0_TTX_LGCU_MSGBOX_06 &(mhl_task_config_buffer_0[6])
+#define TASK_0_TTX_LGCU_MSGBOX_07 &(mhl_task_config_buffer_0[7])
+#define TASK_0_TTX_LGCU_MSGBOX_08 &(mhl_task_config_buffer_0[8])
+#define TASK_0_TTX_LGCU_MSGBOX_09 &(mhl_task_config_buffer_0[9])
+#define TASK_0_TTX_LGCU_MSGBOX_10 &(mhl_task_config_buffer_0[10])
+#define TASK_0_TTX_LGCU_MSGBOX_11 &(mhl_task_config_buffer_0[11])
+#define TASK_0_TTX_LGCU_MSGBOX_12 &(mhl_task_config_buffer_0[12])
+#define TASK_0_TTX_LGCU_MSGBOX_13 &(mhl_task_config_buffer_0[13])
+#define TASK_0_TRX_LBPCU_MSGBOX_00 &(mhl_task_config_buffer_0[14])
+#define TASK_0_TRX_LBPCU_MSGBOX_14 &(mhl_task_config_buffer_0[15])
+#define TASK_0_TRX_RBPCU_MSGBOX_00 &(mhl_task_config_buffer_0[16])
+#define TASK_0_TRX_RBPCU_MSGBOX_14 &(mhl_task_config_buffer_0[17])
+#define TASK_0_TRX_RGCU_MSGBOX_00 &(mhl_task_config_buffer_0[18])
+#define TASK_0_TRX_RGCU_MSGBOX_13 &(mhl_task_config_buffer_0[19])
+#define TASK_0_TRX_RGCU_MSGBOX_14 &(mhl_task_config_buffer_0[20])
+#define TASK_0_TRX_RPDU11M1_MSGBOX_01 &(mhl_task_config_buffer_0[21])
+#define TASK_0_TRX_RPDU11M1_MSGBOX_02 &(mhl_task_config_buffer_0[22])
+#define TASK_0_TRX_RPDU11M1_MSGBOX_03 &(mhl_task_config_buffer_0[23])
+#define TASK_0_TRX_RPDU11M1_MSGBOX_04 &(mhl_task_config_buffer_0[24])
+#define TASK_0_TRX_RPDU11M1_MSGBOX_05 &(mhl_task_config_buffer_0[25])
+#define TASK_0_TRX_RPDU11M1_MSGBOX_06 &(mhl_task_config_buffer_0[26])
+#define TASK_0_TRX_RPDU11M1_MSGBOX_07 &(mhl_task_config_buffer_0[27])
+#define TASK_0_TRX_RPDU11M1_MSGBOX_08 &(mhl_task_config_buffer_0[28])
+#define TASK_0_TRX_RPDU11M1_MSGBOX_09 &(mhl_task_config_buffer_0[29])
+#define TASK_0_TRX_RPDU11M1_MSGBOX_10 &(mhl_task_config_buffer_0[30])
+#define TASK_0_TRX_RPDU11M1_MSGBOX_11 &(mhl_task_config_buffer_0[31])
+#define TASK_0_TRX_RPDU11M1_MSGBOX_12 &(mhl_task_config_buffer_0[32])
+#define TASK_0_TRX_RPDU11M2_MSGBOX_01 &(mhl_task_config_buffer_0[33])
+#define TASK_0_TRX_RPDU11M2_MSGBOX_02 &(mhl_task_config_buffer_0[34])
+#define TASK_0_TRX_RPDU11M2_MSGBOX_03 &(mhl_task_config_buffer_0[35])
+#define TASK_0_TRX_RPDU11M2_MSGBOX_04 &(mhl_task_config_buffer_0[36])
+#define TASK_0_TRX_RPDU11M2_MSGBOX_05 &(mhl_task_config_buffer_0[37])
+#define TASK_0_TRX_RPDU11M2_MSGBOX_06 &(mhl_task_config_buffer_0[38])
+#define TASK_0_TRX_RPDU11M2_MSGBOX_07 &(mhl_task_config_buffer_0[39])
+#define TASK_0_TRX_RPDU11M2_MSGBOX_08 &(mhl_task_config_buffer_0[40])
+#define TASK_0_TRX_RPDU11M2_MSGBOX_09 &(mhl_task_config_buffer_0[41])
+#define TASK_0_TRX_RPDU11M2_MSGBOX_10 &(mhl_task_config_buffer_0[42])
+#define TASK_0_TRX_RPDU11M2_MSGBOX_11 &(mhl_task_config_buffer_0[43])
+#define TASK_0_TRX_RPDU11M2_MSGBOX_12 &(mhl_task_config_buffer_0[44])
+#define TASK_0_TRX_RPDU12M1_MSGBOX_01 &(mhl_task_config_buffer_0[45])
+#define TASK_0_TRX_RPDU12M1_MSGBOX_02 &(mhl_task_config_buffer_0[46])
+#define TASK_0_TRX_RPDU12M1_MSGBOX_03 &(mhl_task_config_buffer_0[47])
+#define TASK_0_TRX_RPDU12M1_MSGBOX_04 &(mhl_task_config_buffer_0[48])
+#define TASK_0_TRX_RPDU12M1_MSGBOX_05 &(mhl_task_config_buffer_0[49])
+#define TASK_0_TRX_RPDU12M1_MSGBOX_06 &(mhl_task_config_buffer_0[50])
+#define TASK_0_TRX_RPDU12M1_MSGBOX_07 &(mhl_task_config_buffer_0[51])
+#define TASK_0_TRX_RPDU12M1_MSGBOX_08 &(mhl_task_config_buffer_0[52])
+#define TASK_0_TRX_RPDU12M1_MSGBOX_09 &(mhl_task_config_buffer_0[53])
+#define TASK_0_TRX_RPDU12M1_MSGBOX_10 &(mhl_task_config_buffer_0[54])
+#define TASK_0_TRX_RPDU12M1_MSGBOX_11 &(mhl_task_config_buffer_0[55])
+#define TASK_0_TRX_RPDU12M1_MSGBOX_12 &(mhl_task_config_buffer_0[56])
+#define TASK_0_TRX_RPDU12M2_MSGBOX_01 &(mhl_task_config_buffer_0[57])
+#define TASK_0_TRX_RPDU12M2_MSGBOX_02 &(mhl_task_config_buffer_0[58])
+#define TASK_0_TRX_RPDU12M2_MSGBOX_03 &(mhl_task_config_buffer_0[59])
+#define TASK_0_TRX_RPDU12M2_MSGBOX_04 &(mhl_task_config_buffer_0[60])
+#define TASK_0_TRX_RPDU12M2_MSGBOX_05 &(mhl_task_config_buffer_0[61])
+#define TASK_0_TRX_RPDU12M2_MSGBOX_06 &(mhl_task_config_buffer_0[62])
+#define TASK_0_TRX_RPDU12M2_MSGBOX_07 &(mhl_task_config_buffer_0[63])
+#define TASK_0_TRX_RPDU12M2_MSGBOX_08 &(mhl_task_config_buffer_0[64])
+#define TASK_0_TRX_RPDU12M2_MSGBOX_09 &(mhl_task_config_buffer_0[65])
+#define TASK_0_TRX_RPDU12M2_MSGBOX_10 &(mhl_task_config_buffer_0[66])
+#define TASK_0_TRX_RPDU12M2_MSGBOX_11 &(mhl_task_config_buffer_0[67])
+#define TASK_0_TRX_RPDU12M2_MSGBOX_12 &(mhl_task_config_buffer_0[68])
+#define SIZE_OF_TT_TDC_MHB_PARTITION_1_0 14
+extern void tt_tdcl_enter_critical_section (ubyte1 section);
+  
+extern void tt_tdcl_leave_critical_section (ubyte1 section);
+  
+typedef ubyte4* LBPCU_MSGBOX_00_type; 
+typedef ubyte4* LBPCU_MSGBOX_14_type; 
+typedef ubyte4* LGCU_MSGBOX_00_type; 
+typedef ubyte4* LGCU_MSGBOX_01_type; 
+typedef ubyte4* LGCU_MSGBOX_02_type; 
+typedef ubyte4* LGCU_MSGBOX_03_type; 
+typedef ubyte4* LGCU_MSGBOX_04_type; 
+typedef ubyte4* LGCU_MSGBOX_05_type; 
+typedef ubyte4* LGCU_MSGBOX_06_type; 
+typedef ubyte4* LGCU_MSGBOX_07_type; 
+typedef ubyte4* LGCU_MSGBOX_08_type; 
+typedef ubyte4* LGCU_MSGBOX_09_type; 
+typedef ubyte4* LGCU_MSGBOX_10_type; 
+typedef ubyte4* LGCU_MSGBOX_11_type; 
+typedef ubyte4* LGCU_MSGBOX_12_type; 
+typedef ubyte4* LGCU_MSGBOX_13_type; 
+typedef ubyte4* RBPCU_MSGBOX_00_type; 
+typedef ubyte4* RBPCU_MSGBOX_14_type; 
+typedef ubyte4* RGCU_MSGBOX_00_type; 
+typedef ubyte4* RGCU_MSGBOX_13_type; 
+typedef ubyte4* RGCU_MSGBOX_14_type; 
+typedef ubyte4* RPDU11M1_MSGBOX_01_type; 
+typedef ubyte4* RPDU11M1_MSGBOX_02_type; 
+typedef ubyte4* RPDU11M1_MSGBOX_03_type; 
+typedef ubyte4* RPDU11M1_MSGBOX_04_type; 
+typedef ubyte4* RPDU11M1_MSGBOX_05_type; 
+typedef ubyte4* RPDU11M1_MSGBOX_06_type; 
+typedef ubyte4* RPDU11M1_MSGBOX_07_type; 
+typedef ubyte4* RPDU11M1_MSGBOX_08_type; 
+typedef ubyte4* RPDU11M1_MSGBOX_09_type; 
+typedef ubyte4* RPDU11M1_MSGBOX_10_type; 
+typedef ubyte4* RPDU11M1_MSGBOX_11_type; 
+typedef ubyte4* RPDU11M1_MSGBOX_12_type; 
+typedef ubyte4* RPDU11M2_MSGBOX_01_type; 
+typedef ubyte4* RPDU11M2_MSGBOX_02_type; 
+typedef ubyte4* RPDU11M2_MSGBOX_03_type; 
+typedef ubyte4* RPDU11M2_MSGBOX_04_type; 
+typedef ubyte4* RPDU11M2_MSGBOX_05_type; 
+typedef ubyte4* RPDU11M2_MSGBOX_06_type; 
+typedef ubyte4* RPDU11M2_MSGBOX_07_type; 
+typedef ubyte4* RPDU11M2_MSGBOX_08_type; 
+typedef ubyte4* RPDU11M2_MSGBOX_09_type; 
+typedef ubyte4* RPDU11M2_MSGBOX_10_type; 
+typedef ubyte4* RPDU11M2_MSGBOX_11_type; 
+typedef ubyte4* RPDU11M2_MSGBOX_12_type; 
+typedef ubyte4* RPDU12M1_MSGBOX_01_type; 
+typedef ubyte4* RPDU12M1_MSGBOX_02_type; 
+typedef ubyte4* RPDU12M1_MSGBOX_03_type; 
+typedef ubyte4* RPDU12M1_MSGBOX_04_type; 
+typedef ubyte4* RPDU12M1_MSGBOX_05_type; 
+typedef ubyte4* RPDU12M1_MSGBOX_06_type; 
+typedef ubyte4* RPDU12M1_MSGBOX_07_type; 
+typedef ubyte4* RPDU12M1_MSGBOX_08_type; 
+typedef ubyte4* RPDU12M1_MSGBOX_09_type; 
+typedef ubyte4* RPDU12M1_MSGBOX_10_type; 
+typedef ubyte4* RPDU12M1_MSGBOX_11_type; 
+typedef ubyte4* RPDU12M1_MSGBOX_12_type; 
+typedef ubyte4* RPDU12M2_MSGBOX_01_type; 
+typedef ubyte4* RPDU12M2_MSGBOX_02_type; 
+typedef ubyte4* RPDU12M2_MSGBOX_03_type; 
+typedef ubyte4* RPDU12M2_MSGBOX_04_type; 
+typedef ubyte4* RPDU12M2_MSGBOX_05_type; 
+typedef ubyte4* RPDU12M2_MSGBOX_06_type; 
+typedef ubyte4* RPDU12M2_MSGBOX_07_type; 
+typedef ubyte4* RPDU12M2_MSGBOX_08_type; 
+typedef ubyte4* RPDU12M2_MSGBOX_09_type; 
+typedef ubyte4* RPDU12M2_MSGBOX_10_type; 
+typedef ubyte4* RPDU12M2_MSGBOX_11_type; 
+typedef ubyte4* RPDU12M2_MSGBOX_12_type; 
+extern LBPCU_MSGBOX_00_type LBPCU_MSGBOX_00;
+extern LBPCU_MSGBOX_14_type LBPCU_MSGBOX_14;
+extern LGCU_MSGBOX_00_type LGCU_MSGBOX_00;
+extern LGCU_MSGBOX_01_type LGCU_MSGBOX_01;
+extern LGCU_MSGBOX_02_type LGCU_MSGBOX_02;
+extern LGCU_MSGBOX_03_type LGCU_MSGBOX_03;
+extern LGCU_MSGBOX_04_type LGCU_MSGBOX_04;
+extern LGCU_MSGBOX_05_type LGCU_MSGBOX_05;
+extern LGCU_MSGBOX_06_type LGCU_MSGBOX_06;
+extern LGCU_MSGBOX_07_type LGCU_MSGBOX_07;
+extern LGCU_MSGBOX_08_type LGCU_MSGBOX_08;
+extern LGCU_MSGBOX_09_type LGCU_MSGBOX_09;
+extern LGCU_MSGBOX_10_type LGCU_MSGBOX_10;
+extern LGCU_MSGBOX_11_type LGCU_MSGBOX_11;
+extern LGCU_MSGBOX_12_type LGCU_MSGBOX_12;
+extern LGCU_MSGBOX_13_type LGCU_MSGBOX_13;
+extern RBPCU_MSGBOX_00_type RBPCU_MSGBOX_00;
+extern RBPCU_MSGBOX_14_type RBPCU_MSGBOX_14;
+extern RGCU_MSGBOX_00_type RGCU_MSGBOX_00;
+extern RGCU_MSGBOX_13_type RGCU_MSGBOX_13;
+extern RGCU_MSGBOX_14_type RGCU_MSGBOX_14;
+extern RPDU11M1_MSGBOX_01_type RPDU11M1_MSGBOX_01;
+extern RPDU11M1_MSGBOX_02_type RPDU11M1_MSGBOX_02;
+extern RPDU11M1_MSGBOX_03_type RPDU11M1_MSGBOX_03;
+extern RPDU11M1_MSGBOX_04_type RPDU11M1_MSGBOX_04;
+extern RPDU11M1_MSGBOX_05_type RPDU11M1_MSGBOX_05;
+extern RPDU11M1_MSGBOX_06_type RPDU11M1_MSGBOX_06;
+extern RPDU11M1_MSGBOX_07_type RPDU11M1_MSGBOX_07;
+extern RPDU11M1_MSGBOX_08_type RPDU11M1_MSGBOX_08;
+extern RPDU11M1_MSGBOX_09_type RPDU11M1_MSGBOX_09;
+extern RPDU11M1_MSGBOX_10_type RPDU11M1_MSGBOX_10;
+extern RPDU11M1_MSGBOX_11_type RPDU11M1_MSGBOX_11;
+extern RPDU11M1_MSGBOX_12_type RPDU11M1_MSGBOX_12;
+extern RPDU11M2_MSGBOX_01_type RPDU11M2_MSGBOX_01;
+extern RPDU11M2_MSGBOX_02_type RPDU11M2_MSGBOX_02;
+extern RPDU11M2_MSGBOX_03_type RPDU11M2_MSGBOX_03;
+extern RPDU11M2_MSGBOX_04_type RPDU11M2_MSGBOX_04;
+extern RPDU11M2_MSGBOX_05_type RPDU11M2_MSGBOX_05;
+extern RPDU11M2_MSGBOX_06_type RPDU11M2_MSGBOX_06;
+extern RPDU11M2_MSGBOX_07_type RPDU11M2_MSGBOX_07;
+extern RPDU11M2_MSGBOX_08_type RPDU11M2_MSGBOX_08;
+extern RPDU11M2_MSGBOX_09_type RPDU11M2_MSGBOX_09;
+extern RPDU11M2_MSGBOX_10_type RPDU11M2_MSGBOX_10;
+extern RPDU11M2_MSGBOX_11_type RPDU11M2_MSGBOX_11;
+extern RPDU11M2_MSGBOX_12_type RPDU11M2_MSGBOX_12;
+extern RPDU12M1_MSGBOX_01_type RPDU12M1_MSGBOX_01;
+extern RPDU12M1_MSGBOX_02_type RPDU12M1_MSGBOX_02;
+extern RPDU12M1_MSGBOX_03_type RPDU12M1_MSGBOX_03;
+extern RPDU12M1_MSGBOX_04_type RPDU12M1_MSGBOX_04;
+extern RPDU12M1_MSGBOX_05_type RPDU12M1_MSGBOX_05;
+extern RPDU12M1_MSGBOX_06_type RPDU12M1_MSGBOX_06;
+extern RPDU12M1_MSGBOX_07_type RPDU12M1_MSGBOX_07;
+extern RPDU12M1_MSGBOX_08_type RPDU12M1_MSGBOX_08;
+extern RPDU12M1_MSGBOX_09_type RPDU12M1_MSGBOX_09;
+extern RPDU12M1_MSGBOX_10_type RPDU12M1_MSGBOX_10;
+extern RPDU12M1_MSGBOX_11_type RPDU12M1_MSGBOX_11;
+extern RPDU12M1_MSGBOX_12_type RPDU12M1_MSGBOX_12;
+extern RPDU12M2_MSGBOX_01_type RPDU12M2_MSGBOX_01;
+extern RPDU12M2_MSGBOX_02_type RPDU12M2_MSGBOX_02;
+extern RPDU12M2_MSGBOX_03_type RPDU12M2_MSGBOX_03;
+extern RPDU12M2_MSGBOX_04_type RPDU12M2_MSGBOX_04;
+extern RPDU12M2_MSGBOX_05_type RPDU12M2_MSGBOX_05;
+extern RPDU12M2_MSGBOX_06_type RPDU12M2_MSGBOX_06;
+extern RPDU12M2_MSGBOX_07_type RPDU12M2_MSGBOX_07;
+extern RPDU12M2_MSGBOX_08_type RPDU12M2_MSGBOX_08;
+extern RPDU12M2_MSGBOX_09_type RPDU12M2_MSGBOX_09;
+extern RPDU12M2_MSGBOX_10_type RPDU12M2_MSGBOX_10;
+extern RPDU12M2_MSGBOX_11_type RPDU12M2_MSGBOX_11;
+extern RPDU12M2_MSGBOX_12_type RPDU12M2_MSGBOX_12;
+extern tt_tdc_Frame_Buffer fcb_base [];
+extern tt_tdc_Message_Buffer mhb_base_0 [];
+#endif /* _tt_tdc_application_data_0_h_ */
+
