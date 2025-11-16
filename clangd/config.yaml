@@ -1,0 +1,4 @@
+If:
+  PathMatch: .*\.(cpp|cc|cxx|c|h|hpp)$
+Format:
+  Style: .clang-format -style=file -dump-config  # 使用项目中的.clang-format文件
